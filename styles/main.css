@@ -1,0 +1,15 @@
+.sidebar{margin:0; padding:0;width:200px;position:absolute;height:100%;overflow: auto;}
+.sidebar a {
+    display: block;
+    color: rgb(53,4,75);
+    padding: 10px;
+    text-decoration: rgb(53,4,75);
+    font-size: 22px;
+    font-weight: bold;
+  }
+   
+  .sidebar a:hover:not(.active){
+    background-color: #04AA6D;
+    color: white;
+  }
+
