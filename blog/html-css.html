@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Inline and Inline Block</title>
+    <meta charset="UTF-8">
+    <link href="../styles/main.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arima+Madurai&family=Comforter&display=swap" rel="stylesheet">
+  </head>
+  <style>
+    body{font-family:"Arima Madurai";
+    font-size: 20px;
+  color: rgb(73, 7, 99);}
+    img {
+          display:block;
+          margin-left: auto;
+          margin-right: auto;
+          border:groove 6px rgb(8, 8, 8);
+        }
+    .p1{text-align: center;}
+    #grad {background-image: linear-gradient(rgb(205, 166, 223),rgb(160, 248, 164));}
+    .box{
+  width: 700px;
+  border: 10px solid rgb(73, 7, 99);
+  padding: 20px;
+  margin: auto;
+  -webkit-box-shadow: 5px 5px 15px 5px #b65656; 
+box-shadow: 5px 5px 15px 5px #a85353;
+}
+h2,h3{font-size: 60px;
+color:rgb(73, 7, 99);
+text-align: center;
+text-decoration: underline;}
+h1{font: 100px;
+color: rgb(73, 7, 99);
+text-align: center;
+}
+
+
+  </style>
+  
+  <body>
+    <div id="grad">
+    <h1>What does it mean to display inline vs inline blocks?</h1>
+    <hr size ="8" width= "70%"color= "purple">
+    <div>
+      <p>nlineand Inline Blocks are the display property of how an element can be displayed in a webpage.
+         These are the two frequently used building blocks of web pages. 
+         In this post we will discuss and recognise how these elements behave in building the layouts.</p>
+    </div>
+    <h2>Inline</h2>
+    <div class="box">
+      <p>Inline elements are displayed in same line, just as the name suggests.
+       This means there is no line breaks and they can line up next to other elements on the same line. 
+       Therefore, it takes up as much width as necessary.They are not affected by the change in height or width properties.
+        But, they can still have an effect with the margins and with padding. Margins can only only work horizontally left or right,
+         but not vertically. Padding can be applied on all sides, but the top and bottom may overlap other elements. </p>
+         <div>
+           <img src="../img/inline html:css.png" alt="inline example html/css" height="320"width="580">
+           <p class="p1">Inline example in html/css file</p>
+         </div>
+         <img src="../img/inline .png" alt="inline example in webpage" height="320" width="580">
+         <p class="p1"> Inline example on a  website</p>
+    </div>
+
+    <h3>Inline Blocks</h3>
+    <div class="box">
+    <p>Inline block is essentially same as Inline except you have the ability to adjust 
+    the height and width properties. Also, it does not add a line-break so its on the same l
+    ine as other elements. Padding and Margins can be added on all four sides.
+CSS code to display is: inline-block.
+    
+     </p>
+     
+       <img src="../img/inline block html:css.png" alt="inline block example html/css" height="320" width="580">
+       <p class="p1"> Inline Block example in html/css</p>
+     
+     
+       <img src="../img/inline block.png" alt="inline block in website"height="320" width="580">
+       <p class="p1">Inline Block example on a  website</p>
+     </div>
+     
+  
+    
+    <!-- this is a comment. -->
+  
+  </body>
+</html>
