@@ -12,4 +12,19 @@
     background-color: #04AA6D;
     color: white;
   }
-
+  #grad {background-image: linear-gradient(rgb(205, 166, 223),rgb(160, 248, 164));}
+  .center {
+    text-align: center; }
+    .box{
+      width: 750px;
+      border: 6px solid rgb(73, 7, 99);
+      padding: 20px;
+      margin: auto;
+      -webkit-box-shadow: 5px 5px 15px 5px #b65656; 
+    box-shadow: 5px 5px 15px 5px #a85353;
+    }
+    h3{text-decoration: underline;
+    }
+    body{font-family:"Arima Madurai";
+      font-size: 20px;
+    color: rgb(53,4,75);}
