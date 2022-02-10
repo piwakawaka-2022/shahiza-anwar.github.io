@@ -1,7 +1,7 @@
-.sidebar{margin-left: 20px; padding-top: 160px;width:250px;position:absolute;height:100%;overflow: auto;}
+.sidebar{text-align:center;margin-left: 15px; padding-top: 80px;width:225px;position:absolute;height:100%;}
 .sidebar a {
     display: block;
-    color: rgb(53,4,75);
+    color: #35044b;
     padding: 10px;
     text-decoration: rgb(53,4,75);
     font-size: 28px;
@@ -9,14 +9,14 @@
   }
    
   .sidebar a:hover:not(.active){
-    background-color: #04AA6D;
+    background-color: #e76767;
     color: white;
   }
-  #grad {background-image: linear-gradient(rgb(205, 166, 223),rgb(160, 248, 164));}
+  #grad {background-image: linear-gradient(rgb(210, 197, 231),rgb(206, 139, 145));}
   .center {
     text-align: center; }
     .box{
-      width: 750px;
+      width: 800px;
       border: 6px solid rgb(73, 7, 99);
       padding: 20px;
       margin: auto;
@@ -28,3 +28,37 @@
     body{font-family:"Arima Madurai";
       font-size: 20px;
     color: rgb(53,4,75);}
+.h1{font-size: 65px ;
+text-decoration: underline;
+text-align: center;}
+
+.page{background-image: linear-gradient(rgb(210, 197, 231),rgb(206, 139, 145));}
+
+.b{
+  width: 250px;
+  border: 6px solid #490763;
+  padding: 50px;
+  margin-right:20px;
+  margin-left: 200px;
+  -webkit-box-shadow: 5px 5px 15px 5px #b65656; 
+box-shadow: 5px 5px 15px 5px #a85353;
+display: inline-block;
+}
+#text{color: rgb(73, 7, 99);
+text-decoration: none;
+font-weight: bold ;}
+.c{
+  width: 240px;
+  border: 6px solid rgb(73, 7, 99);
+  padding: 60px;
+  margin-right: 5px;
+  margin-top: 50px;
+  margin-left: 200px;
+  -webkit-box-shadow: 5px 5px 15px 5px #b65656; 
+box-shadow: 5px 5px 15px 5px #a85353;
+display: inline-flex;
+}
+.bc :hover:not(.active){
+  background-color: #e76767;}
+
+
