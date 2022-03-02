@@ -6,30 +6,59 @@ body{
   
 }
 
-.sidebar{
-  text-align:center;
-  margin-left: 10px;
-   padding-top: 220px;
-   width:270px;
-   position:absolute;
-   height:50px;
- }
+.sidebar {
+  margin-top: 180px;
+  padding: 0;
+  width: 180px;
+  background-color: #ecd1f1;
+  position: absolute;
+  height: 40%;
+  overflow: auto;
+  border: rgb(91, 63, 94) 4px solid;
+}
+
 .sidebar a {
-    display: block;
-    color: #0f3028;
-    padding: 35px;
-    text-decoration: rgb(0, 0, 0);
-    font-size: 28px;
-    font-weight: bold;
-    background-color: rgb(234, 208, 245);
-    font-weight: bold;
-    
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+}
+ 
+.sidebar a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.sidebar a:hover:not(.active) {
+  background-color: rgb(89, 118, 180);
+  color: white;
+}
+  
+div.content {
+  margin-left: 200px;
+  margin-right: 200px;
+ 
+
+}
+
+
+  @media screen and (max-width: 700px) {
+    .sidebar {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    .sidebar a {float: left;}
+    div.content {margin-left: 0;}
   }
-   
-  .sidebar a:hover:not(.active){
-    background-color: #0368db;
-    color: white;
+  
+  @media screen and (max-width: 400px) {
+    .sidebar a {
+      text-align: center;
+      float: none;
+    }
   }
+
 
 
  .image{
@@ -70,11 +99,11 @@ font-weight:bold;
 }
 
 .box{
-  width: 800px;
+  display: inline-block;
+  width: 250px;
   border: 6px solid rgb(19, 32, 88);
-  padding: 10px;
-  
- margin:auto;
+  padding: 5rem 5rem;
+  vertical-align: middle;
   -webkit-box-shadow: 5px 5px 15px 5px #0368db; 
 box-shadow: 5px 5px 15px 5px rgb(22, 62, 100);}
 
